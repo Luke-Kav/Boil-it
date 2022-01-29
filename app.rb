@@ -9,8 +9,8 @@ require 'active_support/security_utils'
 
 # The Shopify app's shared secret, viewable from the Partner dashboard
 SHARED_SECRET = 'cfc968d1c2bd375bcb23f17e12ebe4a1aab162a26cc837839ea738c824da095c'
-API_KEY = 'a9cb683079bfb34edaf089b659cfe383'
-PASSWORD = '963386486a1298f7e4756e1b09bd3fcb'
+API_KEY = 'xxxxxx'
+PASSWORD = 'xxxxxxx'
 SHOP_NAME = 'bruciesbonuses'
 shop_url = "https://#{API_KEY}:#{PASSWORD}@#{SHOP_NAME}.myshopify.com"
 ShopifyAPI::Base.site = shop_url
